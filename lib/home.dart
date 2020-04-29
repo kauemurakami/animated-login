@@ -1,3 +1,4 @@
+import 'package:animatedlogin/input_custom.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -55,11 +56,16 @@ class _HomeState extends State<Home> {
                     ),
                       child: Column(
                         children: <Widget>[
-                          TextFormField(
-                            decoration: InputDecoration(
-                              labelText: 'Email'
-                            ),
-                          )
+                          InputCustom(
+                              hint: 'Email',
+                              obscure: false,
+                              icone : Icon(Icons.person)
+                          ),
+                          InputCustom(
+                              hint: 'Senha',
+                              obscure: true,
+                              icone : Icon(Icons.lock)
+                          ),
                         ],
                       ),
                     ),
