@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:flutter/scheduler.dart' show timeDilation;
+//import 'package:flutter/scheduler.dart' show timeDilation;
 import 'package:animatedlogin/input_custom.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
